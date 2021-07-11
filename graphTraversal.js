@@ -19,7 +19,7 @@ const dfs = (graph, startingNode) => {
     run_dfs(graph, startingNode, visitedNodes, visitingOrder);
 
     // console.info('visited nodes :', visitedNodes);
-    console.info('visited order :', visitingOrder);
+    console.info('visited in order :', visitingOrder);
 }
 
 const run_dfs = (graph, startingNode, visitedNodes, visitingOrder) => {
@@ -61,7 +61,7 @@ const bfs = (graph, startingNode) => {
     }
 
     // console.info('visited nodes :', visitedNodes);
-    console.info('visited order :', visitingOrder);
+    console.info('visited in order :', visitingOrder);
 }
 
 export { dfs, bfs };
